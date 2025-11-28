@@ -1,14 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="./lab41/lab41.js"></script>
+    <title>Mục Lục Bài Tập JS</title>
+    <style>
+      /* CSS đơn giản để trình bày đẹp mắt */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 600px;
+        margin: 40px 20px;
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        text-align: center;
+        color: #666;
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+
+      .list-group {
+        list-style: none;
+        padding: 0;
+      }
+
+      .list-item {
+        margin-bottom: 12px;
+      }
+
+      .list-item a {
+        display: block;
+        padding: 15px 20px;
+        background-color: #fff;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .list-item a:hover {
+        background-color: #007bff;
+        color: white;
+        border-color: #007bff;
+        transform: translateX(5px);
+      }
+
+      .folder-tag {
+        font-size: 12px;
+        background: #eee;
+        padding: 2px 8px;
+        border-radius: 4px;
+        color: #555;
+      }
+
+      .list-item a:hover .folder-tag {
+        background: rgba(255, 255, 255, 0.3);
+        color: white;
+      }
+
+      /* Phần Footer link cũ của bạn */
+      .footer-link {
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+      }
+
+      .footer-link a {
+        color: #d9534f;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .footer-link a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello guest</h1>
-    <div>F12+Console to check information</div>
-    <a href="https://manhfangg01.github.io/JSBrowserLearning/" style="text-decoration: none; color: red">Click here to see our public web</a>
+    <div class="container">
+      <h1>Hello Guest!</h1>
+      <p class="subtitle">F12 + Console để kiểm tra thông tin từng bài</p>
+
+      <ul class="list-group">
+        <li class="list-item">
+          <a href="./assign1/lab23.html">
+            Assign 1 - Lab 23
+            <span class="folder-tag">assign1</span>
+          </a>
+        </li>
+
+        <li class="list-item">
+          <a href="./lab17/lab17.html">
+            Bài Lab 17
+            <span class="folder-tag">lab17</span>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="./lab18/lab18.html">
+            Bài Lab 18
+            <span class="folder-tag">lab18</span>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="./lab19/lab19.html">
+            Bài Lab 19
+            <span class="folder-tag">lab19</span>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="./lab21/lab21.html">
+            Bài Lab 21
+            <span class="folder-tag">lab21</span>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="./lab22/lab22.html">
+            Bài Lab 22
+            <span class="folder-tag">lab22</span>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="./lab30/lab30.html">
+            Bài Lab 30
+            <span class="folder-tag">lab30</span>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="./lab38/lab38.html">
+            Bài Lab 38
+            <span class="folder-tag">lab38</span>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="./lab39/lab39.html">
+            Bài Lab 39
+            <span class="folder-tag">lab39</span>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="./lab40/lab40.html">
+            Bài Lab 40
+            <span class="folder-tag">lab40</span>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="./lab41/lab41.html">
+            Bài Lab 41
+            <span class="folder-tag">lab41</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="footer-link">
+        <a href="https://manhfangg01.github.io/JSBrowserLearning/" target="_blank"> Click here to see our public web </a>
+      </div>
+    </div>
   </body>
 </html>
