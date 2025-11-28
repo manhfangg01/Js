@@ -3,6 +3,7 @@ console.log("hello lab 41");
 const human = {
   name: "manh",
   age: 20,
+  isGay: true,
 };
 
 // get data
@@ -25,3 +26,6 @@ console.log("Thông tin chi tiết: ", human);
 
 // Cách 2 dùng JSON.stringify
 console.log(`Detailed information: ${JSON.stringify(human)}`);
+
+//  delete field in object
+delete human.isGay;
